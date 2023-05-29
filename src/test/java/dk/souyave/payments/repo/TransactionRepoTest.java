@@ -22,7 +22,7 @@ public class TransactionRepoTest {
   private TransactionRepo transactionRepo;
 
   @BeforeEach
-  public void cleanUp() {
+  public void init() {
     Account.ID_GENERATOR.set(1);
   }
 

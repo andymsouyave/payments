@@ -9,7 +9,11 @@
 
 ### Swagger
 
-Swagger should be available for use on the root context path of the server.
+Swagger should be available for use on the root context path of the server: http://localhost:8080
+
+### Coverage Report
+
+Jacoco code coverage report should be available on GitHub repo pages site: https://andymsouyave.github.io/payments
 
 ## Information
 
