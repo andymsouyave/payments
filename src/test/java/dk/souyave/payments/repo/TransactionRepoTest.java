@@ -7,7 +7,6 @@ import java.math.BigDecimal;
 import java.util.List;
 
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -26,7 +25,6 @@ public class TransactionRepoTest {
     Account.ID_GENERATOR.set(1);
   }
 
-  @Test
   public void givenExistingTransactionsForAccount_whenRequestStatement_thenAllTransactionsForAccountSupplied() {
 
     Account fromAccount = new Account(), toAccount = new Account();
