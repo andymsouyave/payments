@@ -32,6 +32,7 @@ public class TransactionRepo {
     return Flux.fromStream(transactions.values().stream()
         .filter(transaction -> accountId == transaction.getAccount().getId())
         .sorted(Comparator.comparing(Transaction::getDate).reversed())
-        .limit(size)).subscribeOn(Schedulers.parallel());
+        .limit(size))
+        .subscribeOn(Schedulers.parallel());
   }
 }

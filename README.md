@@ -7,6 +7,12 @@
 * Git
 * JDK 17 (Minimum required by Spring Boot 3)
 
+### Run
+
+```
+./mvnw spring-boot:run
+```
+
 ### Swagger
 
 Swagger should be available for use on the root context path of the server: http://localhost:8080
@@ -29,7 +35,7 @@ Jacoco code coverage report should be available on GitHub repo pages site: https
 
 ### Challenges
 
- * Lombok Builder annotations were causing default values to fail which was due to it clashing with some other anonotations
+ * Lombok Builder annotations were causing default values to fail which was due to it clashing with some other annotations
  * Have gotten used to relational databases, so it was difficult to flip my head around storing the data in data structures instead and how that would work. 
 
 ### Things to be aware of
